@@ -28,6 +28,9 @@
                 padding-right: 20px;
             }
         }
+        .active {
+            color: $mainOrange;
+        }
     }
     a {
         color: #fff;
