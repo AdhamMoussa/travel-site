@@ -29,7 +29,9 @@
             }
         }
         .active {
-            color: $mainOrange;
+            @mixin atMedium {
+                color: $mainOrange;
+            }
         }
     }
     a {
